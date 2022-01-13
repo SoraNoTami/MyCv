@@ -1,11 +1,11 @@
-@font-face { font-family: Poppins; src: url('fonts/poppins.ttf'); } 
+@font-face { font-family: "Poppins"; src: url("../fonts/poppins.ttf")} 
 
 body {
     font-family: Poppins;
     margin: 0;
 }
 p.right { 
-    display : inline;
+    display : flex;
 }
 
 nav {
@@ -69,22 +69,20 @@ header h2{
 .block_blue a{
     color:white;
 }
-
+.LeftRight{
+    display: flex;
+    justify-content: space-between;
+}
+section h5{
+    margin: 0;
+    width: 300px;  
+}
 #ethan{
     height: 150px;
     width: 150px;
     border: none;
 	border-radius: 50%;
 }
-h5{
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
 footer {
     padding: 40px;
 }
@@ -93,3 +91,11 @@ footer div {
     margin: 0px;
     list-style: none;
 }
+.LeftRight p{
+    margin: 0;
+    
+}
+/* aside{
+   
+}
+ */
